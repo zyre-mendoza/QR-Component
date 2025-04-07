@@ -1,12 +1,61 @@
-
+/* Reset some default styles */
 * {
-    box-sizing: border-box; 
-    margin: 0; 
-    padding: 0; 
-}
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styling to center the card */
+  body {
+    font-family: 'Outfit', sans-serif; 
+    background-color: #D5E1EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  /* Card container */
+  .card {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* QR image styling */
+  .card .qr-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Heading */
+  .card h1 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #1F314F
+  }
+  
+  /* Paragraph */
+  .card p {
+    font-size: 0.95rem;
+    color: #68778D;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 20px;
+
+    
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
